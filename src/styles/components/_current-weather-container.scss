@@ -1,0 +1,62 @@
+.weather-container{
+
+    max-width: 50%;
+    margin: 0 auto;
+   margin-top:50px;
+   margin-bottom:50px;
+   padding-bottom:50px;
+    border:1px solid $mild-grey;
+    border-radius: 5px;
+    background-color: $light-gray;
+}
+.weather-city-name{
+    margin-bottom:0px;
+    text-align: center;
+}
+.weather-date{
+    margin:0;
+    text-align: center;
+}
+.weather-cloudiness{
+    margin-top:0px;
+    text-align: center;
+}
+
+.weather-panel-header{
+    text-align: center;
+}
+
+.weather-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.weather-details-1{
+    margin-left:10px;
+}
+.weather-details-2{
+    margin-right:10px;
+}
+
+@media(max-width: 768px){
+    .weather-details {
+        flex-direction: column;
+    }
+    .weather-details-2{
+        margin-left:10px;
+    }
+
+    .weather-container{
+        max-width:70%;
+        margin:0 auto;
+        margin-top:50px;
+    }
+}
+
+.weather-icon{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}

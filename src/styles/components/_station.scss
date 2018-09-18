@@ -1,0 +1,41 @@
+.station-list{
+    border:1px solid $mild-grey;
+    border-radius: 3px;
+    
+    
+}
+.station-list-title{
+    text-align: center;
+    background-color: $mild-orange;
+    h1{
+        margin-top:0;
+        padding-top:5px;
+        padding-bottom: 5px;
+    }
+}
+.no-station{
+    text-align: center;
+}
+
+.station-item{
+
+    margin: 10px;
+    border:1px solid $mild-grey;
+    border-radius: 5px;
+    background-color:$mild-grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+@media(max-width: 767px){
+    
+    .station-item{
+        flex-direction: column;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    
+}

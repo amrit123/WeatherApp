@@ -1,0 +1,32 @@
+.city-list-container{
+    max-width:60%;
+    margin:0 auto;
+    border:1px solid $mild-grey;
+    border-right:none;
+    border-left:none;
+    padding-top:10px;
+}
+
+.city-list-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.city-weather-icon{
+    margin-right:100px;
+}
+
+.city-weather-link{
+    font-weight: 700;
+    color:$mild-orange;
+}
+
+@media(max-width: 767px){
+    
+    .city-weather-icon{
+        margin-right:10px;
+    }
+    
+}

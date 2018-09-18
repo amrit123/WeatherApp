@@ -1,0 +1,37 @@
+.Weatherpanel{
+    width:50%;
+    margin:0 auto;
+    border:1px solid $mild-grey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.eachRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:10px;
+    padding-right:10px;
+    align-items: center;
+}
+
+.currentDay{
+    background-color: $mild-orange;
+    text-align: center;
+   
+}
+
+.day{
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+@media(max-width: 768px){
+    .Weatherpanel{
+        width:70%;
+        margin:0 auto;
+        border:1px solid $mild-grey;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+}
