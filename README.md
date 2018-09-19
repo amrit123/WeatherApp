@@ -8,4 +8,9 @@ React at frontend because i have experience working with, redux for state manage
 ## how to use it
 download the zip or clone it
 in terminal initialize with npm install.it will download all the package
-to start the app:npm run dev-server
+
+to start the app=>npm run dev-server
+
+http://localhost:8080 
+
+you can change the port inside webpack.config.js file if required
