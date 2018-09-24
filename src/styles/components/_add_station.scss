@@ -33,3 +33,12 @@ margin-bottom:$m-size;
     padding:5px;
     border-radius: 7px;
 }
+
+@media(max-width: 768px){
+    .station-container {
+        max-width:90%;
+        margin:0 auto;
+        margin-top:20px;
+    }
+    
+}

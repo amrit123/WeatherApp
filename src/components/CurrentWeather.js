@@ -60,7 +60,7 @@ export class CurrentWeather extends Component {
           <h1 className="weather-city-name">{cityName}</h1>
           <h3 className="weather-date">{date}</h3>
           <h3 className="weather-cloudiness">cloudiness:{cloudiness}</h3>
-          <div className="weather-icon"><img src={imageUrl} alt="" /> {currentTemp}°C</div>
+          <div className="weather-icon"><img src={imageUrl} alt="" /> <h1> {currentTemp}°C</h1></div>
 
 
           <div className="weather-details">
