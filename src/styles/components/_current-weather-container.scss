@@ -41,6 +41,19 @@
 }
 
 @media(max-width: 768px){
+   
+    .weather-details-2{
+        margin-left:10px;
+    }
+
+    .weather-container{
+        max-width:90%;
+        margin:0 auto;
+        margin-top:50px;
+    }
+}
+
+@media(max-width: 576px){
     .weather-details {
         flex-direction: column;
     }
