@@ -4,7 +4,7 @@ export const loadState=()=>{
         const searilizedState=localStorage.getItem("stations");
         
         if(searilizedState===null){
-            return undefined;
+            return [];
         }
         return JSON.parse(searilizedState);
     }catch(err){
