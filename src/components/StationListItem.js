@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import StationItem from "./StationItem";
-
+//import {loadState} from "../localStorage/storage";
 
 export  class StationListItem extends Component {
     
@@ -30,7 +30,10 @@ export  class StationListItem extends Component {
   }
 }
  const mapStateToProps=(state)=>{
+ 
   return{
+    //stationList:loadState()
+
 stationList:state.stationReducer
   }
 } 
