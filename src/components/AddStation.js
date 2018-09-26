@@ -108,7 +108,7 @@ export class AddStation extends Component {
                             <input
                                 value={this.state.altitiude}
                                 onChange={this.handleAltitiudeChange}
-                                placeholder="altitiude(in meter)" type="number" 
+                                placeholder="altitiude(in meter)" type="number" step="any"
                                 required
                                 className="text-input" /> 
                        <div>

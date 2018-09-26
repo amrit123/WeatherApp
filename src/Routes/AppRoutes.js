@@ -12,7 +12,7 @@ const AppRoutes = () => (
       <NavigationHeader />
       <Switch>
         <Route path="/" component={WeatherMain} exact={true} />
-        <Route path="/currentWeather" component={CurrentWeather} exact={true} />
+       
         <Route path="/viewStation" component={StationListItem} />
         <Route path="/addStation" component={AddStation} />
         
@@ -22,3 +22,6 @@ const AppRoutes = () => (
 );
 
 export default AppRoutes;
+
+
+/* <Route path="/currentWeather" component={CurrentWeather} exact={true} /> */
